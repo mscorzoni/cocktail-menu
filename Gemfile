@@ -23,6 +23,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :test do
   gem 'rspec-rails', '~> 3.8'
+  gem 'rails-controller-testing'
 end
 
 group :development, :test do
